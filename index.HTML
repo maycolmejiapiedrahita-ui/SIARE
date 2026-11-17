@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIARE | Acceso al sistema</title>
+    <link rel="stylesheet" href="SIARE-COLOR.CSS">
+</head>
+<body>
+    
+
+    <div class="topline"></div>
+
+    <header class="encabezado">
+        <div class="logo">
+            <img src="logo-siare-solo.png" alt="Logo de SIARE">
+        </div>
+
+        <div class="marca">
+            <h1>SIARE</h1>
+            <p>SISTEMA INTEGRAL DE ADMINISTRACIÓN<br>
+                DE RESTAURANTE ESCOLAR</p>
+        </div>
+
+        <div class="etiqueta">
+            Plataforma de gestión escolar
+        </div>
+    </header>
+
+    <main>
+        <section class="bienvenida">
+            <div class="texto-bienvenida">
+                <span class="subtitulo">SISTEMA DE ACCESO</span>
+
+                <h2>Bienvenido de nuevo a <span>SIARE</span></h2>
+
+                <p>
+                    Ingresa al sistema y selecciona tu rol para conocer
+                    las funciones que corresponden a tus responsabilidades
+                    dentro del restaurante escolar.
+                </p>
+
+                <div class="etiquetas">
+                    <span>Gestión organizada</span>
+                    <span>Roles y permisos</span>
+                    <span>Información centralizada</span>
+                </div>
+            </div>
+
+            <section class="tarjeta-login" aria-labelledby="titulo-login">
+                <h2 id="titulo-login">Selecciona tu rol</h2>
+               
+
+                <form action="login-apoyo-logistico.html" method="get">
+                    <p class="titulo-opciones">Elige tu rol</p>
+
+                    <div class="opciones-rol">
+                        <label class="opcion-rol" for="administrador">
+                            <input type="radio" id="administrador" name="rol" value="administrador" required>
+                            <span>Administrador</span>
+                        </label>
+
+                        <label class="opcion-rol" for="encargado">
+                            <input type="radio" id="encargado" name="rol" value="encargado">
+                            <span>Encargado del restaurante</span>
+                        </label>
+
+                        <label class="opcion-rol" for="docente">
+                            <input type="radio" id="docente" name="rol" value="docente">
+                            <span>Docente / responsable</span>
+                        </label>
+
+                        <label class="opcion-rol" for="logistico">
+                            <input type="radio" id="logistico" name="rol" value="logistico">
+                            <span>Apoyo logístico</span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="boton-principal">
+                        Entrar al sistema &rarr;
+                    </button>
+
+                    <p class="nota-formulario">
+                        Maqueta académica. El inicio de sesión todavía
+                        no está conectado a una base de datos.
+                    </p>
+                </form>
+            </section>
+        </section>
+
+        <section class="seccion-roles">
+            <div class="encabezado-seccion">
+                <h2>ROLES</h2>
+                <p>
+                    Cada usuario tiene funciones y permisos específicos
+                    dentro del sistema.
+                </p>
+            </div>
+
+           <div class="rejilla-roles">
+
+    <div class="tarjeta-rol">
+        <div class="icono">⚙️</div>
+        <h3>Administrador</h3>
+        <p>Configura usuarios, permisos y parámetros generales del sistema.</p>
+        <span class="enlace-rol">Rol del sistema</span>
+    </div>
+
+    <div class="tarjeta-rol">
+        <div class="icono">🍽️</div>
+        <h3>Encargado del restaurante</h3>
+        <p>Registra menús, inventario, compras y entregas de raciones.</p>
+        <span class="enlace-rol">Rol del sistema</span>
+    </div>
+
+    <div class="tarjeta-rol">
+        <div class="icono">📊</div>
+        <h3>Docente / responsable</h3>
+        <p>Consulta el menú, las entregas y los reportes autorizados.</p>
+        <span class="enlace-rol">Rol del sistema</span>
+    </div>
+
+    <div class="tarjeta-rol">
+        <div class="icono">📦</div>
+        <h3>Apoyo logístico</h3>
+        <p>Registra movimientos de inventario y recepción de productos.</p>
+        <span class="enlace-rol">Rol del sistema</span>
+    </div>
+
+
+    
+
+   
+</article>
+                
+            </div>
+        </section>
+
+        <aside class="nota-final">
+            <span class="punto"></span>
+            <p>
+                <strong>
+                    Vista personalizada según permisos y responsabilidades.
+                </strong>
+                <br>
+                Una misma plataforma, cuatro roles y un solo sistema: SIARE.
+            </p>
+        </aside>
+    </main>
+
+    <footer>
+        MEDIA TÉCNICA · DESARROLLO DE SOFTWARE
+    </footer>
+
+</body>
+</html>
